@@ -3,7 +3,8 @@ function App() {
 	return (
 		<div className="wrapper">
 			<h1>&lt;UnderConstruction /&gt;</h1>
-			<h2>Coming Soon</h2>
+			<h2>Working hard...</h2>
+			<div className="tenor-gif-embed" data-postid="22461398" data-share-method="host" data-aspect-ratio="1.6" data-width="100%"><a href="https://tenor.com/view/sweaty-speedrunner-epic-gamer-sweatyspeedrunner-gif-22461398">Sweaty Speedrunner GIF</a>from <a href="https://tenor.com/search/sweaty-gifs">Sweaty GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 			<div className="container">
 				<div className="loading-bar__container">
 					<div className="loading-bar">

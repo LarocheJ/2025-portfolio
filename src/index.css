@@ -7,7 +7,7 @@ body {
   background-size: 400% 400%;
   animation: gradient 12s ease infinite;
   color: #fff;
-  height: 100vh;
+  height: 80vh;
   font-family: "Quicksand", sans-serif;
   padding: clamp(1rem, 6vw, 4rem);
   min-width: 300px;
@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  margin: 0 0 4rem;
+  margin: 0 0 2rem;
   font-size: 2em;
 }
 
