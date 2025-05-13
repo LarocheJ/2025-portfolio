@@ -1,0 +1,44 @@
+.wrapper {
+  text-align: center;
+  max-width: 1400px;
+  margin-block-end: 35%;
+}
+
+.loading-bar-container {
+  margin-block-end: 2rem;
+  width: 100%;
+}
+
+.loading-bar {
+  display: block;
+
+  height: 10px;
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.loading-bar__inner {
+  width: 25%;
+  position: absolute;
+  inset: 0;
+  background-color: orange;
+}
+
+.loading-bar__values {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  margin-block-start: 0.25rem;
+  font-family: "Source Code Pro", system-ui, monospace;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.text-blurb {
+  padding-inline: 2rem;
+}
