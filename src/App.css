@@ -11,8 +11,7 @@
 
 .loading-bar {
   display: block;
-
-  height: 10px;
+  height: 15px;
   background-color: #fff;
   border-radius: 1rem;
   overflow: hidden;
@@ -23,7 +22,9 @@
   width: 25%;
   position: absolute;
   inset: 0;
-  background-color: orange;
+  background: linear-gradient(to left, #fc4a1a, #f7b733);
+  /* background-size: 400% 100%; */
+  animation: loading 2.5s ease-in-out;
 }
 
 .loading-bar__values {
@@ -41,4 +42,13 @@
 
 .text-blurb {
   padding-inline: 2rem;
+}
+
+@keyframes loading {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

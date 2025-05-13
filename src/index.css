@@ -3,7 +3,9 @@
 body {
   display: grid;
   place-content: center;
-  background-color: rgb(33, 33, 33);
+  background: linear-gradient(130deg,rgba(38, 38, 38, 1) 0%, rgb(49, 49, 49) 50%, rgb(71, 71, 71) 100%);
+  background-size: 400% 400%;
+  animation: gradient 12s ease infinite;
   color: #fff;
   height: 100vh;
   font-family: "Quicksand", sans-serif;
@@ -30,4 +32,16 @@ p {
 a {
   color: rgb(221, 133, 78);
   text-decoration: none;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
