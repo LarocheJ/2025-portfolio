@@ -19,7 +19,7 @@ function App() {
 
 				<div class="loader"></div>
 				
-				<p className="text-blurb">Hey! Thanks for checking out my portfolio! Unfortunately, I got tired of showing off old school projects from 2021 and it was over due for a revamp. Feel free to <a href="mailto:contact@jimmylaroche.com">reach out</a> for any questions while I build my new portfolio!</p>
+				<p className="text-blurb">Hey! Thanks for checking out my portfolio! Unfortunately, I got tired of showing off old school projects from 2020 and it was over due for a revamp. Feel free to <a href="mailto:contact@jimmylaroche.com">reach out</a> for any questions while I build my new portfolio!</p>
 			</div>
 		</div>
 	)
