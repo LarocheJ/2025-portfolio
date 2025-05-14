@@ -16,8 +16,10 @@ function App() {
 						<span className="loading-bar-values__item">100%</span>
 					</div>
 				</div>
+
+				<div class="loader"></div>
 				
-				<p className="text-blurb">I'm currently revamping my portfolio. If, for whatever reason, you want to check out my very old portfolio, you can do so <a href="https://old.jimmylaroche.com" target="_blank">here</a>.</p>
+				<p className="text-blurb">Hey! Thanks for checking out my portfolio! Unfortunately, I got tired of showing off old school projects from 2021 and it was over due for a revamp. Feel free to <a href="mailto:contact@jimmylaroche.com">reach out</a> for any questions while I build my new portfolio!</p>
 			</div>
 		</div>
 	)
